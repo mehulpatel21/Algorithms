@@ -23,7 +23,7 @@ public class WordLadderShortedPath {
 		 dictionary.add("WEB");
 		 
 		String startWord = "CAT";
-		String endWord = "DOG";
+		String endWord = "COG";
 		
 		Ladder result = getShortestTransformationIterative(startWord, endWord, dictionary);
 		if(result != null){
