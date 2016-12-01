@@ -46,14 +46,13 @@ public class BinarySearch {
 		 BinarySearch ob = new BinarySearch();
 	        int arr[] = {2, 3, 4, 10, 40};
 	        int n = arr.length;
-	        int x = 10;
+	        int x = 50;
 	        int resultIterative = ob.binarySearchIterative(arr, x);
-	        int resultRecursive = ob.binarySearchRecursive(arr, 0, n-1, x);
-	        if (resultIterative == -1)
-	            System.out.println("Element not present");
+	        if(resultIterative == -1)
+	        	System.out.println("Element not present");
 	        else
 	            System.out.println("Element " + x +" found at index by iterative method: "+resultIterative);
-	        	System.out.println("Element " + x +" found at index by recursive method: "+resultRecursive);
+	        	//System.out.println("Element " + x +" found at index by recursive method: "+resultRecursive);
 
 	}
 

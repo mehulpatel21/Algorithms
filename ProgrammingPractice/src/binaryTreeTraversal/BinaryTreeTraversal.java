@@ -116,7 +116,7 @@ public class BinaryTreeTraversal {
 		}
 	}
   
-	private void addNodeInProperPlace(Node rootNode, int data){ 
+	private void addNodeInProperPlace(Node rootNode, int data){
 		if(data>rootNode.getData()){
 			if(rootNode.getRight()!=null){
 				addNode(rootNode.getRight(), data);
