@@ -45,7 +45,7 @@ public class BinarySearch {
 	public static void main(String[] args) {
 		 BinarySearch ob = new BinarySearch();
 	        int arr[] = {2, 3, 4, 10, 40};
-	        int n = arr.length;
+	        //int n = arr.length;
 	        int x = 50;
 	        int resultIterative = ob.binarySearchIterative(arr, x);
 	        if(resultIterative == -1)
