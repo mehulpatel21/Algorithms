@@ -5,12 +5,10 @@ public class RotationPointInSortedArray {
 
 	public static void main(String[] args) {
 		int[] inputArray = {3,4,5,0,1};
-		RotationPointInSortedArray obj = new RotationPointInSortedArray();
-		obj.rotationPoint(inputArray);
-
+		rotationPoint(inputArray);
 	}
 	
-	public void rotationPoint(int[] input) {
+	public static void rotationPoint(int[] input) {
 		int start = 0; 
 		int end = input.length-1; 
 		int mid;
