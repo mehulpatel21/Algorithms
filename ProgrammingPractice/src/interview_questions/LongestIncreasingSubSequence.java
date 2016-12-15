@@ -29,7 +29,7 @@ public class LongestIncreasingSubSequence {
 		}
 
 		for(int i = startIndex; i < endIndex; i++) {
-			System.out.println(input[i]+ " ");
+			System.out.print(input[i]+ " ");
 		}
 
 	}
