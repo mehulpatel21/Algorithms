@@ -1,4 +1,4 @@
-package miscellaneous;
+package interview_questions;
 
 public class LongestIncreasingSubSequence {
 
