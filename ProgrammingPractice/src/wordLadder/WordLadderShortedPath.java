@@ -12,28 +12,27 @@ public class WordLadderShortedPath {
 	public static void main(String[] args) {
 		Set<String> dictionary = new HashSet<String>();
 		 dictionary.add("CAT");
-	 dictionary.add("BAT");
-	 dictionary.add("COT");
-	 dictionary.add("COG");
-	 dictionary.add("COW");
-	 dictionary.add("RAT");
-	 dictionary.add("BUT");
-	 dictionary.add("CUT");
-	 dictionary.add("DOG");
-	 dictionary.add("WEB");
+		 dictionary.add("BAT");
+		 dictionary.add("COT");
+		 dictionary.add("COG");
+		 dictionary.add("COW");
+		 dictionary.add("RAT");
+		 dictionary.add("BUT");
+		 dictionary.add("CUT");
+		 dictionary.add("DOG");
+		 dictionary.add("WEB");
 	 
-	String startWord = "CAT";
-	String endWord = "COG";
-	
-	Ladder result = getShortestTransformationIterative(startWord, endWord, dictionary);
-	if(result != null){
-		System.out.println("Path is: " + result.getPath() + " and length is: " + result.getLength());
-	}
-	else {
-		System.out.println("No path found!!");
+		String startWord = "CAT";
+		String endWord = "COG";
+		
+		Ladder result = getShortestTransformationIterative(startWord, endWord, dictionary);
+		if(result != null){
+			System.out.println("Path is: " + result.getPath() + " and length is: " + result.getLength());
+		}
+		else {
+			System.out.println("No path found!!");
 		}
 	}
-	
 	
 	private static Ladder getShortestTransformationIterative(String startWord, String endWord, Set<String> dictionary) {
 	  if(dictionary.contains(startWord) && dictionary.contains(endWord)){
