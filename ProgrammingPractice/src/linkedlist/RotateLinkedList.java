@@ -10,8 +10,31 @@ public class RotateLinkedList {
 			next = null;
 		}
 	}
-	
-	
+
+    void rotate(int k)
+    {
+        if (k == 0) return;
+        Node current  = head;
+
+        int count = 1;
+        while (count < k && current !=  null)
+        {
+            current = current.next;
+            count++;
+        }
+ 
+        if (current == null)
+            return;
+
+        Node kthNode = current;
+        while (current.next != null)
+            current = current.next;
+        
+        current.next = head;
+        head = kthNode.next;
+        kthNode.next = null;
+ 
+    }
 	
 	void addToLinkedList(int new_data){
 		Node new_node = new Node(new_data);
@@ -36,6 +59,7 @@ public class RotateLinkedList {
 		System.out.println("Given list");
 		mylist.printList();
 		
+		mylist.rotate(4);
 		
 		System.out.println("After rotation");
 		mylist.printList();

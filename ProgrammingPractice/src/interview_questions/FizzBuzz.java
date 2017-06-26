@@ -12,11 +12,10 @@ public class FizzBuzz {
 			return "buzz";
 		}
 		return String.valueOf(number);
-		
 	}
 	
 	public static void main(String[] args){
-		System.out.println(fizzBuzz(3));
+		System.out.print(fizzBuzz(17));
 	}
 	
 }

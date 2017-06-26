@@ -32,4 +32,5 @@ public class RotationPointInSortedArray {
 		System.out.println("Rotated at index "+ mid +" and element is "+ input[mid]);
 	}
 
+	
 }

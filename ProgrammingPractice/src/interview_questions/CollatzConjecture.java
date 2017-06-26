@@ -23,7 +23,7 @@ public class CollatzConjecture {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("Enter the number: ");
+		System.out.print("Enter the number: ");
 		@SuppressWarnings("resource")
 		int number = new Scanner(System.in).nextInt();
 		collatzConjecture(number, 16);

@@ -12,18 +12,15 @@ public class ReverseStringWithFirstLetterCapital {
     		
     		for (String string : originalString.split(" ")) {
     			String revStr = new StringBuilder(string).reverse().toString();
-    			System.out.println(revStr);
-            
     			revStr = revStr.toLowerCase();
-    			System.out.println(revStr);
-            
     			revStr = Character.toUpperCase(revStr.charAt(0)) + revStr.substring(1);
-    			System.out.println(revStr);
-            
+    			
     			resultBuilder.append(revStr).append(" ");
     		}
-            System.out.println("Output is: " + resultBuilder.toString());   
+            System.out.println("Output is: " + resultBuilder.toString()); 
+            
     	}
-        cc.close();
-	}
+    	cc.close();
+    	
+	} 
 }

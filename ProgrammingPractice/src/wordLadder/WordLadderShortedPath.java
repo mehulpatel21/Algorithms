@@ -21,11 +21,8 @@ public class WordLadderShortedPath {
 		 dictionary.add("CUT");
 		 dictionary.add("DOG");
 		 dictionary.add("WEB");
-	 
-		String startWord = "CAT";
-		String endWord = "COG";
 		
-		Ladder result = getShortestTransformationIterative(startWord, endWord, dictionary);
+		Ladder result = getShortestTransformationIterative("CAT", "COG", dictionary);
 		if(result != null){
 			System.out.println("Path is: " + result.getPath() + " and length is: " + result.getLength());
 		}
