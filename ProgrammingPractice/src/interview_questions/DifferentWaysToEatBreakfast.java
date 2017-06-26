@@ -1,7 +1,6 @@
 package interview_questions;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DifferentWaysToEatBreakfast {
 	public static void main(String[] args){
