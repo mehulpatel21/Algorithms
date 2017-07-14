@@ -3,7 +3,7 @@ package interview_questions;
 /*
  * Author: Mehul Patel
  * Date: 07/03/2017
- * Code Test:FENICS Cities Connected exercise.
+ * Code Test:FENICS(GFI Group) Cities Connected exercise.
  */
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.Set;
 
-/*
+/* Coding Test from FENICS:
  * Problem Statement:
  * Connected Cities
 --------------------------------
@@ -30,10 +30,11 @@ import java.util.Set;
 	New York, Croton-Harmon
 	St. Petersburg, Tampa
 	
-	Each line of the file indicates that it is possible to travel between the two cities named. (More formally, if we think of the cities as nodes
-	in a graph, each line of the file specifies an edge between two nodes.) In the example above it is possible to travel between Boston and
-	New York, and also between New York and Philadelphia and between Philadelphia and Pittsburgh, so it follows that Boston and
-	Pittsburgh are connected. On the other hand, there is no path between Boston and Tampa, so they are not connected.
+	Each line of the file indicates that it is possible to travel between the two cities named. 
+	(More formally, if we think of the cities as nodes in a graph, each line of the file specifies an edge between two nodes.) 
+	In the example above it is possible to travel between Boston and New York, and also between New York and Philadelphia 
+	and between Philadelphia and Pittsburgh, so it follows that Boston and Pittsburgh are connected. 
+	On the other hand, there is no path between Boston and Tampa, so they are not connected.
 	
 	Write a Java (or C++) program, called "Connected" that reads in such a file and outputs whether two specified cities are connected.
 	
@@ -73,7 +74,8 @@ public class Connected {
 	}
 
 	/*
-	 * Keys in the map are the total cities available. Value is a set of cities that each city is connected to. Basically node connection.
+	 * The key in the map are the cities that we have available. Value is a set of cities that this city is connected to. 
+	 * So the strings are the nodes, the name of the cities.
 	 * If there is a key-value pair that exists, then those cities are connected. This is a bidirectional relation in an undirected graph.
 	 */
 	/*

@@ -1,8 +1,5 @@
 package binarytree;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class BinaryTreeTraversal{
 	class Node{
 		private int data;
