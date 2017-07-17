@@ -52,8 +52,6 @@ public class BinarySearch {
 	        	System.out.println("Element not present");
 	        else
 	            System.out.println("Element " + x +" found at index by iterative method: "+resultIterative);
-	        	
-
 	}
 
 }
