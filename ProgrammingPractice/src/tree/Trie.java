@@ -9,7 +9,6 @@ public class Trie {
 		trie.insert("Mehul");
 		System.out.println(trie.search("Mehul"));
 	}
-	
 	public class TrieNode{
 		Map<Character, TrieNode> children;
 		boolean endOfWord;
