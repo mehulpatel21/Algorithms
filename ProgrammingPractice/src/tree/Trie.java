@@ -7,8 +7,6 @@ public class Trie {
 	public static void main(String[] args){
 		Trie trie = new Trie();
 		trie.insert("Mehul");
-		
-		
 		System.out.println(trie.search("Mehul"));
 	}
 	
@@ -22,6 +20,7 @@ public class Trie {
 		}
 	}
 	public final TrieNode root;
+	
 	public Trie(){
 		root = new TrieNode();
 	}
