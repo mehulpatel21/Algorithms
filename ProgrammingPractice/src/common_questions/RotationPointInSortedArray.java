@@ -1,4 +1,4 @@
-package interview_questions;
+package common_questions;
 
 // A program to find rotation point in a sorted array
 public class RotationPointInSortedArray {

@@ -1,3 +1,3 @@
-package interview_questions;
+package common_questions;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package interview_questions;
+package common_questions;
 
 import java.io.BufferedReader;
 import java.io.IOException;

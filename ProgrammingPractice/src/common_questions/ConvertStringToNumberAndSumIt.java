@@ -1,4 +1,4 @@
-package interview_questions;
+package common_questions;
 
 public class ConvertStringToNumberAndSumIt {
 	public static int convertStringToNumAndSumIt(String inputString){
