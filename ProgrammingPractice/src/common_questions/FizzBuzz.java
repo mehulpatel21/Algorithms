@@ -15,7 +15,7 @@ public class FizzBuzz {
 	}
 	
 	public static void main(String[] args){
-		System.out.print(fizzBuzz(17));
+		System.out.print(fizzBuzz(15));
 	}
 	
 }
